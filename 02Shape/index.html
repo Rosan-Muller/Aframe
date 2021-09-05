@@ -8,12 +8,12 @@
     <script src="scripts/main.js" defer></script>
   </head>
   <body>
-    <a-scene background="color: #48cae4">
+    <a-scene background="color: #fec89a">
       <a-box id="myBox"
         width="3"
-        height="1.5"
+        height="2"
         depth="1"
-        color="#0077b6" 
+        color="#e76f51" 
         position= "0.8 2 -5" 
         rotation= "20 50 2"
         scale= "1 1.4 0.5">
@@ -24,15 +24,15 @@
         rotation="-90 0 0"
         width="100"
         height="100"
-        color="#caf0f8">
+        color="#fae1dd">
       </a-plane>
 
-      <a-triangle
+      <a-octahedron
         position= "0.8 1.5 -2" 
         rotation= "-20 40 0"
         radius= "0.5"
-        color="#03045e">
-      </a-triangle>
+        color="#e76f51">
+      </a-octagedron>
 
       <a-sphere
         position= "1 0.5 -3" 
@@ -40,8 +40,13 @@
         color="#48cae4">
       </a-sphere>
 
-   
-
+      <a-ring
+        position="0 -1 0"
+        width="200"
+        height="50"
+        color="#fae1dd">
+      </a-ring>
+      
     </a-scene>
   </body>
 </html>
