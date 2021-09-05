@@ -8,14 +8,40 @@
     <script src="scripts/main.js" defer></script>
   </head>
   <body>
-    <a-scene background="color: #333333">
+    <a-scene background="color: #48cae4">
       <a-box id="myBox"
         width="3"
-        height="2"
+        height="1.5"
         depth="1"
-        color="#BBAA33" 
-        shadow>
+        color="#0077b6" 
+        position= "0.8 2 -5" 
+        rotation= "20 50 2"
+        scale= "1 1.4 0.5">
       </a-box>
+
+      <a-plane
+        position="0 -2 0"
+        rotation="-90 0 0"
+        width="100"
+        height="100"
+        color="#caf0f8">
+      </a-plane>
+
+      <a-triangle
+        position= "0.8 1.5 -2" 
+        rotation= "-20 40 0"
+        radius= "0.5"
+        color="#03045e">
+      </a-triangle>
+
+      <a-sphere
+        position= "1 0.5 -3" 
+        radius= "0.2"
+        color="#48cae4">
+      </a-sphere>
+
+   
+
     </a-scene>
   </body>
 </html>
